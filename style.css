@@ -1,0 +1,95 @@
+body {
+    background: rgb(196, 198, 255);
+    background: linear-gradient(27deg, rgba(196, 198, 255, 1) 0%, rgba(68, 136, 243, 1) 14%);
+
+}
+
+#login-form {
+    background-color: white;
+    height: 380px;
+    width: 325px;
+    border-radius: 15px;
+    margin: 10% auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #767676;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    font-size: 15px;
+
+}
+
+span {
+    color: #4f88d7;
+    font-weight: bolder;
+
+}
+
+form {
+    position: relative;
+    top: 75px;
+}
+
+input {
+    width: 70%;
+    border: none;
+    display: block;
+    border-bottom: 1px solid skyblue;
+    margin: auto;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    text-transform: lowercase;
+    
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid skyblue;
+    width: 80%;
+
+   
+}
+
+button {
+    border: none;
+    width: 80%;
+    height: 35px;
+    color: white;
+
+    background: rgb(149, 171, 205);
+    background: linear-gradient(16deg, rgba(149, 171, 205, 1) 9%, rgba(35, 118, 249, 1) 26%);
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: none;
+    background-color: #2376f9;
+}
+
+a#forgot-password {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #929292;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+a#create-account {
+    color: #7b9fdd;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}

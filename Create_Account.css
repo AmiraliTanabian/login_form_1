@@ -1,0 +1,91 @@
+@font-face{
+    font-family: IranSans;
+    src: url("font/IRANSans-web.woff") format("woff");
+}
+
+body {
+    background: rgb(196, 198, 255);
+    background: linear-gradient(27deg, rgba(196, 198, 255, 1) 0%, rgba(68, 136, 243, 1) 14%);
+
+}
+div#singup-form{
+    background-color: white;
+    border-radius: 15px;
+    margin: 10% auto;
+    height: 410px;
+    width: 325px;
+}
+
+h1{
+        text-align: center;
+        font-family: sans-serif;
+        color: #767676;
+        position: relative;
+        top: 50px;
+        margin: auto;
+        font-size: 15px;
+    
+}
+
+span {
+    color: #4f88d7;
+    font-weight: bolder;
+
+}
+
+form{
+
+    text-align: center;
+    margin-top:60px
+}
+
+input{
+    width: 70%;
+    border:none;
+    border-bottom:1px solid skyblue;
+    margin-bottom: 11px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+input:focus{
+    outline: none;
+    border-bottom:3px solid skyblue;
+    width: 80%;
+}
+
+button{
+    background: rgb(149, 171, 205);
+    background: linear-gradient(16deg, rgba(149, 171, 205, 1) 9%, rgba(35, 118, 249, 1) 26%);
+    border:none;
+    cursor: pointer;
+    height:35px;
+    width: 80%;
+    color:white;
+    font-weight: bold;
+}
+
+
+button:hover{
+    background:none;
+    background-color:#2376f9;
+}
+p{
+    display: inline;
+    color:#b6b7b8;
+
+ 
+
+}
+
+a{
+    text-decoration: none;
+    color:#7B9FDD;
+
+}
+
+div.Login{
+    margin-top:15px;
+}
+
